@@ -1,0 +1,12 @@
+
+p, contact, role::sales, arg1, =, arg2, _, allow
+
+p, /sales/*, role::sales, type::route, _, _, _, allow
+p, /sales/*, role::manager, type::route, _, _, _, allow
+p, /reports/*, role::manager, type::route, _, _, _, allow
+
+g, tom, group::admin
+g, kevin, role::manager
+g, landre, role::sales
+g, kandice, role::input
+
